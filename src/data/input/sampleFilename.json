@@ -1,0 +1,30 @@
+[
+    {
+        "id": 122,
+        "login": "admin",
+        "password": "admin",
+        "passwordAgain": null,
+        "email": "admin@admin.com",
+        "firstName": "Admin",
+        "lastName": "Adminovich",
+        "birthday": "2010-10-10",
+        "role": {
+            "id": 1,
+            "name": "admin"
+        }
+    },
+    {
+        "id": 51,
+        "login": "Snow123",
+        "password": "1111",
+        "passwordAgain": null,
+        "email": "john@snow.com",
+        "firstName": "John",
+        "lastName": "Snow",
+        "birthday": "2010-10-10",
+        "role": {
+            "id": 2,
+            "name": "user"
+        }
+    }
+]

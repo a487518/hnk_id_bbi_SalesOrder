@@ -1,0 +1,37 @@
+{
+    "SALES_ORDER": [
+        {
+            "trNo": "1900",
+            "trDate": "2016-09-02",
+            "trTime": "09:15:30",
+            "trType": "111SO",
+            "custBillTo": "1110000001"
+        },
+        [
+            {
+                "itemId": "11100001",
+                "qt": 20,
+                "unitId": "PCS",
+                "description": "PUDING NANGKA",
+                "unitPrice": 6000.00,
+                "grossAmt": 120000.00,
+                "discAmt": 12000.00,
+                "taxable": 98182.00,
+                "taxAmt": 9818.00,
+                "netAmt": 108000.00
+            },
+            {
+                "itemId": "11100002",
+                "qt": 20,
+                "unitId": "PCS",
+                "description": "LEMPER PANGGANG",
+                "unitPrice": 4000.00,
+                "grossAmt": 80000.00,
+                "discAmt": 8000.00,
+                "taxable": 65455.00,
+                "taxAmt": 6545.00,
+                "netAmt": 72000.00
+            }
+        ]
+    ]
+    }
