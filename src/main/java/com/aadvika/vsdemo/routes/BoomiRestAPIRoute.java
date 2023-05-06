@@ -39,10 +39,12 @@ public class BoomiRestAPIRoute  extends RouteBuilder{
         .routeId("HNK_ID_12345_DIS_BBI_SalesOrder")
         .log(LoggingLevel.INFO,"Data from the file: ${body}")
         .process(new EncodeAndEncrypt())
+        .setHeader("Authorization", simple("Basic "+ auth))
         .log(LoggingLevel.INFO,"Data after encoding: ${body}")
         .log(LoggingLevel.INFO,"Value of Hash Code: ${header.hashCode}")
         .toD("rest:PUT:{{api.path}}?hashCode=${header.hashCode}")
-        .log(LoggingLevel.INFO,"Response Code: ${header.CamelHttpResponseCode}");
+        .log(LoggingLevel.INFO,"Response Code: ${header.CamelHttpResponseCode}")
+        .log(LoggingLevel.INFO,"Response from the OrlanSoft; ${body}");
 
     }
     
