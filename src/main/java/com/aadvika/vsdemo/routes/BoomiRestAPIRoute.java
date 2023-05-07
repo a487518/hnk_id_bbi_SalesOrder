@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import com.aadvika.vsdemo.process.EncodeAndEncrypt;
 
-@Component
+//@Component
 public class BoomiRestAPIRoute  extends RouteBuilder{
 
     @Value("${api.host}")

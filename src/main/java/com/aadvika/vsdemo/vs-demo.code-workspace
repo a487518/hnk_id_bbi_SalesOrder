@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../.."
+		}
+	],
+	"settings": {
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"/Users/mac/Library/Application Support/Code/User/globalStorage/redhat.vscode-camelk/java-dependencies-3.19.0/dependencies/*.jar"
+		]
+	}
+}
