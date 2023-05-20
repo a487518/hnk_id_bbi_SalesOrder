@@ -19,7 +19,7 @@ public class RestAPI extends RouteBuilder{
 
         restConfiguration()
         .component("jetty")
-        .host("0.0.0.0")
+        .host("127.0.0.1")
         .port(8080)
         .bindingMode(RestBindingMode.auto)
         .enableCORS(true);
