@@ -12,7 +12,7 @@ public class TrimHeaderAndTrailer implements Processor{
     @Override
     public void process(Exchange exchange) throws Exception {
         String msg = exchange.getIn().getBody(String.class);
-        int beginIndex = msg.indexOf("3|@|")+4;
+        int beginIndex = msg.indexOf("OUT_START")+14;
         logger.debug("Begin Index "+beginIndex);
         int endIndex = msg.indexOf("|#||#|")-1;
         logger.debug("End Index "+endIndex);
